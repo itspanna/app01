@@ -6,7 +6,6 @@ class ep {
 
     constructor() {
         this.bindHtml();
-        this.handleEvent();
     }
     bindHtml() {
         this.AInput = document.querySelector("#A");
