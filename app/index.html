@@ -1,0 +1,49 @@
+<!--
+File: index.html
+Author: Teleki Panna
+Copyright: 2024, Teleki Panna
+Group: Szoft N1
+Date: 2024-05-30
+Licenc: GNU GPL
+-->
+
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellipszoid</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ellipszoid</h1>
+      <p>Adatok:</p>
+      <div class="form">
+        <div class="input">
+          <label for="A" class="form-label">A oldal: </label>
+          <input type="text" class="form-control"
+          id="A">
+        </div>
+        <div class="input">
+          <label for="B" class="form-label">B oldal: </label>
+          <input type="text" class="form-control"
+          id="B">
+        </div>
+        <div>
+          <button class="btn btn-primary mt-2"
+          id="calcButton">Számít</button>
+        </div>
+        <div class="input">
+          <label for="perimeter" class="form-label">Tengelye:</label>
+          <input type="text" class="form-control"
+          id="C">
+        </div>
+
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
